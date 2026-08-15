@@ -2,7 +2,7 @@
 
 Quick access and switching between projects. Manage projects with tags, scanning.
 
-![demo](https://github.com/asiloisad/pulsar-project-list/raw/master/assets/demo.png)
+![demo](https://github.com/asiloisad-pulsar/project-list/raw/master/assets/demo.png)
 
 ## Features
 
@@ -16,13 +16,13 @@ Quick access and switching between projects. Manage projects with tags, scanning
 - **Visual indicators**: Items configured with `devMode` or `safeMode` are marked with distinct icons in the list.
 - **Window title**: Automatically updates the window title to reflect the active project name.
 - **Performance cache**: Project list is cached to avoid re-scanning on every open.
-- **Tree view integration**: When used with [tree-view-plus](https://github.com/asiloisad/pulsar-tree-view-plus), the empty project view provides quick access to the project list.
+- **Tree view integration**: When used with [tree-view-plus](https://github.com/asiloisad-pulsar/tree-view-plus), the empty project view provides quick access to the project list.
 
 ## Installation
 
 To install `project-list` search for [project-list](https://web.pulsar-edit.dev/packages/project-list) in the Install pane of the Pulsar settings or run `ppm install project-list`. Alternatively, you can run `ppm install asiloisad/pulsar-project-list` to install a package directly from the GitHub repository.
 
-The [recent-list](https://github.com/asiloisad/pulsar-recent-list) package extends the workflow with a recently opened projects list, fuzzy-searchable and sorted by recency.
+The [recent-list](https://github.com/asiloisad-pulsar/recent-list) package extends the workflow with a recently opened projects list, fuzzy-searchable and sorted by recency.
 
 ## Commands
 
@@ -41,8 +41,8 @@ Commands available in `.project-list`:
 - `select-list:paste`: paste paths into active text-editor,
 - `select-list:dev`: opens a new window with selected project in dev mode,
 - `select-list:safe`: opens a new window with selected project in safe mode,
-- `select-list:external`: open folders externally (via [open-external](https://github.com/asiloisad/pulsar-open-external)),
-- `select-list:show`: show folders in explorer (via [open-external](https://github.com/asiloisad/pulsar-open-external)),
+- `select-list:external`: open folders externally (via [open-external](https://github.com/asiloisad-pulsar/open-external)),
+- `select-list:show`: show folders in explorer (via [open-external](https://github.com/asiloisad-pulsar/open-external)),
 - `select-list:update`: update projects list.
 
 ## `projects.cson`
@@ -122,7 +122,7 @@ Fuzzy matching uses the `fuzzaldrin` algorithm. Match scores are further adjuste
 
 ## Consumed Service `open-external`
 
-When the [open-external](https://github.com/asiloisad/pulsar-open-external) package is installed, two additional actions become available in both project list: open folders externally and show folders in explorer. For multi-path projects, the action is applied to each path.
+When the [open-external](https://github.com/asiloisad-pulsar/open-external) package is installed, two additional actions become available in both project list: open folders externally and show folders in explorer. For multi-path projects, the action is applied to each path.
 
 ## Provided Service `project-list`
 
