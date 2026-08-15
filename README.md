@@ -20,7 +20,7 @@ Quick access and switching between projects. Manage projects with tags, scanning
 
 ## Installation
 
-To install `project-list` search for [project-list](https://web.pulsar-edit.dev/packages/project-list) in the Install pane of the Pulsar settings or run `ppm install project-list`. Alternatively, you can run `ppm install asiloisad/pulsar-project-list` to install a package directly from the GitHub repository.
+To install `project-list` search for [project-list](https://web.pulsar-edit.dev/packages/project-list) in the Install pane of the Pulsar settings or run `ppm install project-list`. Alternatively, you can run `ppm install asiloisad-pulsar/project-list` to install a package directly from the GitHub repository.
 
 The [recent-list](https://github.com/asiloisad-pulsar/recent-list) package extends the workflow with a recently opened projects list, fuzzy-searchable and sorted by recency.
 
