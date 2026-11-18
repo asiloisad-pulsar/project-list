@@ -2,6 +2,9 @@
 
 Quick access and switching between projects. Manage projects with tags, scanning.
 
+> [!NOTE]
+> This package is in maintenance mode. If you use [Lumine](https://github.com/lumine-code/lumine), you may be interested in [project-list](https://github.com/lumine-code/project-list).
+
 ![demo](https://github.com/asiloisad-pulsar/project-list/raw/master/assets/demo.png)
 
 ## Features
